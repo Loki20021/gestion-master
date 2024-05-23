@@ -1,0 +1,40 @@
+
+{% extends 'mainapp/base.html' %}
+
+{% block title %}Projet BIM{% endblock title %}
+
+{% block option_sidbar %}
+<ul class="nav flex-column">
+    <!-- check list-->
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Consigne</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Check liste</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Avancement</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">A propos du projet</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Nouveau projet</a>
+        </li>
+    </ul>
+
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Page dedié a BIM</h1>
+    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Ad cum alias facilis rerum, iure perspiciatis hic nam,
+         voluptatibus quod rem eveniet vel earum.
+         Omnis quaerat quod atque soluta ullam pariatur.
+    </p>
+    <hr class="my-4">
+    <p>Les contenue sont dans cette page</p>
+    <a class="btn custom-button btn-lg" href="#" role="button">En savoir plus</a>
+</div>
+{% endblock content %}

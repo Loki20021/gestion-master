@@ -1,0 +1,31 @@
+
+
+/*sidebar*/ 
+.sidebar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 100vh;
+          width: 250px;
+          background-color: #333;
+          padding-top: 30px;
+}
+/* content */
+.content {
+          margin-left: 250px; /* Same width as the sidebar */
+          padding: 20px;
+          margin-top: 60px;
+}
+/* navbar */
+.navbar {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          margin-left: 250px; 
+         
+}
+
+/*Position icon*/
+.icon {
+        position: relative; /* Permet de positionner l'icône par rapport à son conteneur */
+}

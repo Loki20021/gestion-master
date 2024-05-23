@@ -1,0 +1,30 @@
+
+{% extends 'mainapp/base.html' %}
+
+{% block title %}Accueil{% endblock title %}
+
+{% block option_sidbar %}
+<ul class="nav flex-column">
+  <!-- check list-->
+    <li class="nav-item">
+      <a class="nav-link active" href="#">STRUCTURE</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>.7
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+  </ul>
+
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Bienvenue sur mon site Django</h1>
+    <p class="lead">Ceci est une démonstration de l'utilisation de Bootstrap avec une barre de navigation, une barre latérale et une section de contenu.</p>
+    <hr class="my-4">
+    <p>Utilisez les classes Bootstrap et vos propres styles pour créer des mises en page réactives.</p>
+    <a class="btn custom-button btn-lg" href="#" role="button">En savoir plus</a>
+</div>
+{% endblock content %}
